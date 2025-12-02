@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This is a test of the water emergency broadcast system.</h1>
+    <header>
+        <h1>DreamSpeakV1</h1>
+    </header>
+    <div class="chatlog">
+
+    </div>
+    <form id="chatForm" class="input-form" type="hidden" action="interpret.php">
+        <input id="chatInput" class="user-input" type="text" placeholder="Tell me your dream...">
+        <button id="submit-button" type="submit">Send</button>
+    </form>
+    
+    <script src="chat.js" defer></script>
 </body>
 </html>
