@@ -53,7 +53,7 @@ Below is the tech stack we used to implement the DrinkSync web app.
 
 This is the API that DrinkSync relies on for all mixed drink data. It includes useful data such as images, alcoholic flags, preparation instructions, and more!
 
-You can check out TheCocktailDB API [here](https://www.thecocktaildb.com/api.php)
+You can check out TheCocktailDB API [here](https://www.thecocktaildb.com/api.php).
 
 ### Frontend
 
@@ -63,7 +63,7 @@ You can check out TheCocktailDB API [here](https://www.thecocktaildb.com/api.php
 
 ### Backend
 
-DrinkSync's backend is powered by a LAMP (Linux, Apache, MySQL, PHP) stack and runs on Matthew Nagel's student VM, which itself is hosted on Montana State University's CSCI331 course server. More specifically:
+DrinkSync's backend is powered by a LAMP (Linux, Apache, MySQL, PHP) stack and runs on Matthew Nagel's student VM, which itself is hosted on Montana State University's CSCI 331 course server. More specifically:
 
 * Two tables are used in Matthew Nagel’s MariaDB database: one for user accounts and one for storing each user’s saved drink IDs (not full drink data).
 * These tables are manipulated from our React frontend via PHP API endpoints whenever a user saves/removes a drink, creates a new account, etc.
