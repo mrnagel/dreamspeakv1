@@ -1,4 +1,4 @@
-### DrinkSync
+# DrinkSync
 
 ## Overview
 
